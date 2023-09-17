@@ -26,6 +26,17 @@ nav {
     
     
 }
+
+.footer-top-item {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer-top-item a,p {
+    text-decoration: none;
+    color:  white;
+}
+
 .nav-con {
     display: flex;
     justify-content: space-between;
@@ -49,6 +60,17 @@ nav {
 .menu li a {
     color: rgba(255, 255, 255);
     text-decoration: none;
+}
+
+.lasttext {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.lasttext p {
+    color: #757575;
 }
 
 .hero {
@@ -151,6 +173,7 @@ nav {
     color: white;
     padding: 1rem;
     text-align: center;
+    
 }   
 
 .header {
@@ -245,6 +268,12 @@ nav {
 
 .edu-ht{
     margin: 2rem;
+    color: black;
+}
+
+.edu-ht p {
+   
+    color: black;
 }
 
 .edu-ht p {
