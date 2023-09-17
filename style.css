@@ -3,6 +3,11 @@
      padding: 0;
      box-sizing: border-box;
 }
+
+img {
+    object-fit: cover;
+}
+
 body {
     font-family: 'Kanit', sans-serif;
 }
@@ -66,10 +71,12 @@ nav {
 }
 .hero-info h3 {
     font-size: 2rem;
+    color: black;
 }
 
 .hero-info p {
     margin: 1rem 0;
+    color: black;
 }
 
 .hero-info .hero-btn {
@@ -112,9 +119,11 @@ nav {
 }
 .blog-title h3 {
     font-size: 2rem;
+    color: black;
 }
 .blog-item p {
     margin:  1rem 0;
+    color: black;
 }
 .footer-top {
     margin-top: 2rem;
@@ -204,10 +213,26 @@ nav {
     margin:  1rem 2rem;
     text-align: center;
     font-size: 2rem;
+    color: #ffffff;
 }
+
+.cont2 {
+    display: grid;
+    column-gap: 1fr;
+    
+    
+}
+.cont2 a,p {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
 .talen-fix p {
     margin: 0 1.5rem;
     font-size: 1.2rem;
+    color: #ffffff;
 
 }
 
@@ -231,21 +256,45 @@ nav {
     font-size: 2rem;
 }
 
-.aty {
-    background-color: rgb(255, 232, 232);
-}
-.aty2 {
-    background-color: rgb(255, 255, 255);
-}
+.fixaty {
+    
+    margin: 2rem 15rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2rem;
+   
 
-.aty-con {
-    display: flex;
     
 }
 
-.aty-img {
+.fixC {
+    
+    margin: 2rem 15rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 2rem;
+   
+
+    
+}
+
+.aty {
+    width: 428px;
+    height: 550px;
+    background-color: #ffd6d6;
+    border-radius: 10px;
+    margin: 1.5rem 1.5rem;
+    
+}
+
+.aty-img img {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    
+    
 }
 
 .aty-info {
@@ -253,17 +302,14 @@ nav {
     padding: 2rem;
 }
 .aty-info h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .aty-info p {
-    margin: 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: black;
 }
-.aty2-info p {
-    margin: 1rem 0;
-    font-size: 1.5rem;
-}
+
 
 .contact {
     background-color: rgb(187, 187, 187);
@@ -307,4 +353,9 @@ nav {
     align-items: center;
     justify-items: center;
    
+}
+
+.nav-con {
+    list-style: none;
+    text-decoration: none;
 }
